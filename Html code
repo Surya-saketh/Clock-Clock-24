@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock24 Grid</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Clock24 Grid</h1>
+  <div class="controls">
+    <input type="number" id="numClocks" placeholder="Number of clocks" min="1">
+    <input type="number" id="startTime" placeholder="Start time (minutes)">
+    <input type="number" id="interval" placeholder="Interval (minutes)">
+    <button onclick="startClocks()">Start</button>
+  </div>
+
+  <!-- Black centered area -->
+  <div class="black-box">
+    <div id="clockGrid" class="grid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
