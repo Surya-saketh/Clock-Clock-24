@@ -14,6 +14,8 @@ Here, There are 30 clocks, initital time of each clock is 60 i.e 1 PM and the ti
 
 
 - Display the local time and temperature through multiple clocks, with each clock representing a different component of the time and temperature
+
+  local time
   ![Image Alt](https://github.com/Surya-saketh/Clock-Clock-24/blob/6275163b91252cc62bd3bac7961275c5c89a1f00/Screenshot%202025-09-04%20131824.png)
   
 - Attractive Patterns 
