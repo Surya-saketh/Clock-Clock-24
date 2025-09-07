@@ -1,5 +1,3 @@
-Clock Clock 24, a kinetic sculpture and functional wall clock designed by the Swedish studio Humans, inspired me to create a software based version of it.
-
 Clock Clock 24, a kinetic sculpture and functional wall clock designed by the Swedish studio Humans, inspired me to create a software-based version of it.
 
 **WHAT I HAVE DONE:**
