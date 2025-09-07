@@ -20,3 +20,10 @@ Here, There are 30 clocks, initital time of each clock is 60 i.e 1 PM and the ti
   ![Image Alt](https://github.com/Surya-saketh/Clock-Clock-24/blob/6275163b91252cc62bd3bac7961275c5c89a1f00/Screenshot%202025-09-04%20131824.png)
   
 - Display attractive patterns 
+
+**Technologies Used:**
+
+
+- HTML5 for structure
+- CSS3 for styling and layout
+- JavaScript for dynamic behavior and animations
