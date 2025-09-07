@@ -1,4 +1,5 @@
-Clock Clock 24, a kinetic sculpture and functional wall clock designed by the Swedish studio Humans, inspired me to create a software-based version of it.
+Clock Clock 24, a kinetic sculpture and functional wall clock designed by the Swedish studio Humans, where time is displayed using individual analog clocks to collectively display a digital time through the coordinated movement of their hands. 
+Inspired me to create a software based version of it.
 
 **WHAT I HAVE DONE:**
 
@@ -13,9 +14,9 @@ Here, There are 30 clocks, initital time of each clock is 60 i.e 1 PM and the ti
 **WHAT I WANT TO DO:**
 
 
-- Display the local time and temperature through multiple clocks, with each clock representing a different component of the time and temperature
+- Display the local time and temperature through multiple clocks, where individual analog clocks to collectively display a locak time and temperature through the coordinated movement of their hands.
 
   local time
   ![Image Alt](https://github.com/Surya-saketh/Clock-Clock-24/blob/6275163b91252cc62bd3bac7961275c5c89a1f00/Screenshot%202025-09-04%20131824.png)
   
-- Attractive Patterns 
+- Display attractive patterns 
