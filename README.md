@@ -21,7 +21,7 @@ Here, There are 30 clocks, initital time of each clock is 60 i.e 1 PM and the ti
   
 - Display attractive patterns 
 
-**Technologies Used:**
+**TECHNOLOGIES USED:**
 
 
 - HTML5 for structure
