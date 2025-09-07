@@ -4,7 +4,7 @@ WHAT I HAVE DONE
 -> The user can chose the no of clocks
 -> The starting time (in minutes i.e 60 = 1 PM)
 -> Time interval between each clock
-
+![Image Alt](https://github.com/Surya-saketh/Clock-Clock-24/blob/e64adb4541c380d1321efe4c6c2284fa8712e5c5/Screenshot%202025-09-07%20115529.png)
 WHAT I WANT TO DO
 -> Display the local time and temperature through multiple clocks, with each clock representing a different component of the time and temperature
 -> Attractive Patterns 
