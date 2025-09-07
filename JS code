@@ -1,0 +1,65 @@
+let clocks = [];
+let intervalId;
+
+function startClocks() {
+  clearInterval(intervalId);
+  const grid = document.getElementById("clockGrid");
+  grid.innerHTML = "";
+
+  const n = parseInt(document.getElementById("numClocks").value);
+  const startTime = parseInt(document.getElementById("startTime").value);
+  const interval = parseInt(document.getElementById("interval").value);
+
+  if (isNaN(n) || isNaN(startTime) || isNaN(interval) || n <= 0) {
+    alert("Please enter valid values!");
+    return;
+  }
+
+  clocks = [];
+  for (let i = 0; i < n; i++) {
+    clocks.push(startTime + i * interval);
+    const clockEl = document.createElement("div");
+    clockEl.className = "clock";
+
+    const hourHand = document.createElement("div");
+    hourHand.className = "hand hour";
+    clockEl.appendChild(hourHand);
+
+    const minuteHand = document.createElement("div");
+    minuteHand.className = "hand minute";
+    clockEl.appendChild(minuteHand);
+
+    grid.appendChild(clockEl);
+  }
+
+  const cols = Math.ceil(Math.sqrt(n));
+  grid.style.gridTemplateColumns = `repeat(${cols}, 80px)`;
+
+  updateClocks();
+  intervalId = setInterval(updateClocks, 100);
+}
+
+function updateClocks() {
+  const clockEls = document.querySelectorAll(".clock");
+
+  clocks = clocks.map((time, i) => {
+    time = (time + 1) % (24 * 60);
+
+    let hours = Math.floor(time / 60) % 24;
+    let minutes = time % 60;
+
+    let hourDeg = (hours % 12) * 30 + Math.floor(minutes / 12) * 6;
+    let minuteDeg = minutes * 6;
+
+    const hourHand = clockEls[i].querySelector(".hour");
+    const minuteHand = clockEls[i].querySelector(".minute");
+
+    hourHand.style.transition = "none";
+    minuteHand.style.transition = "none";
+
+    hourHand.style.transform = `translateX(-50%) rotate(${hourDeg}deg)`;
+    minuteHand.style.transform = `translateX(-50%) rotate(${minuteDeg}deg)`;
+
+    return time;
+  });
+}
