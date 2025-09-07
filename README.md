@@ -14,6 +14,6 @@ Here, There are 30 clocks, initital time of each clock is 60 i.e 1 PM and the ti
 
 **WHAT I HAVE WANT TO DO:**
 
-Created a replica of Clock Clock 24 where the user can choose:
+
 - Display the local time and temperature through multiple clocks, with each clock representing a different component of the time and temperature
 - Attractive Patterns 
