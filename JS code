@@ -1,3 +1,4 @@
+//file name - script.js
 let clocks = [];
 let intervalId;
 
