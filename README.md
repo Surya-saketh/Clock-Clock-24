@@ -12,7 +12,7 @@ Created a replica of Clock Clock 24 where the user can choose:
 
 Here, There are 30 clocks, initital time of each clock is 60 i.e 1 PM and the time interval between each clock is 3 minutes
 
-**WHAT I HAVE WANT TO DO:**
+**WHAT I WANT TO DO:**
 
 
 - Display the local time and temperature through multiple clocks, with each clock representing a different component of the time and temperature
