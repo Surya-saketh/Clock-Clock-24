@@ -2,7 +2,7 @@ Clock Clock 24, a kinetic sculpture and functional wall clock designed by the Sw
 
 Clock Clock 24, a kinetic sculpture and functional wall clock designed by the Swedish studio Humans, inspired me to create a software-based version of it.
 
-**What I have done:**
+**WHAT I HAVE DONE:**
 
 Created a replica of Clock Clock 24 where the user can choose:
 - The number of clocks
@@ -12,6 +12,8 @@ Created a replica of Clock Clock 24 where the user can choose:
 
 Here, There are 30 clocks, initital time of each clock is 60 i.e 1 PM and the time interval between each clock is 3 minutes
 
-WHAT I WANT TO DO
--> Display the local time and temperature through multiple clocks, with each clock representing a different component of the time and temperature
--> Attractive Patterns 
+**WHAT I HAVE WANT TO DO:**
+
+Created a replica of Clock Clock 24 where the user can choose:
+- Display the local time and temperature through multiple clocks, with each clock representing a different component of the time and temperature
+- Attractive Patterns 
