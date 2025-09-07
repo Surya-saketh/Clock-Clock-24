@@ -1,0 +1,85 @@
+body {
+  background: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
+
+.black-box {
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.grid {
+  display: grid;
+  gap: 4px;
+}
+
+.clock {
+  width: 80px;
+  height: 80px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hand {
+  position: absolute;
+  width: 5px;
+  height: 35%;
+  background: white;
+  top: 15%;
+  left: 50%;
+  transform-origin: bottom center;
+  transform: translateX(-50%) rotate(0deg);
+}
+
+.minute {
+  height: 45%;
+  top: 5%;
+}
